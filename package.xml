@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ml_linear_regression</name>
+  <version>0.0.1</version>
+  <description>Linear Regression using ROS 2 and scikit-learn on multiple datasets.</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>scikit-learn</exec_depend>
+  <exec_depend>pandas</exec_depend>
+  <exec_depend>joblib</exec_depend>
+  <exec_depend>matplotlib</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
